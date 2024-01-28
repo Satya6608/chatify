@@ -1,0 +1,127 @@
+.login-12 {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 30px 0;
+  }
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    padding: 40px 30px;
+  }
+  .container .inner {
+    margin: 0px auto;
+    max-width: 700px;
+    border-radius: 10px;
+    background-color: #191919;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+  }
+  .container .details {
+    padding: 30px 60px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  .login-12 .details h3 {
+    margin: 0 0 25px;
+    font-size: 25px;
+    color: white;
+  }
+  .login-12 .details .form-group {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .login-12 .details .input-text {
+    outline: none;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 18px;
+    outline: 0;
+    font-weight: 500;
+    color: #ffffff;
+    height: 45px;
+    border-radius: 0;
+    border: 1px solid #313131;
+    -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 6%);
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 6%);
+    background: #313131;
+  }
+  .login-12 .details .Btn {
+    background-color: #e50914;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 50px 10px 50px;
+    cursor: pointer;
+    height: 45px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-size: cover;
+    border-radius: 3px;
+    font-weight: 600;
+    border: 0;
+    display: block;
+    width: 100%;
+  }
+  .login-12 .details .para {
+    color: #787878;
+    font-size: 15px;
+    line-height: 27px;
+  }
+  .login-12 .details .para a {
+    margin-left: 3px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .login-12 .aside {
+    background-size: cover;
+    width: 50%;
+    bottom: 0;
+    padding: 60px 20px;
+    background: #1d1d1d;
+    margin: 30px 0;
+    right: -60px;
+    z-index: 999;
+    position: relative;
+  }
+  .logo a {
+    font-size: 36px;
+    color: white;
+    letter-spacing: 6px;
+    text-decoration: none;
+    outline: 0;
+  }
+  .logo span {
+    font-size: 36px;
+    color: #e50914;
+    letter-spacing: 6px;
+    text-decoration: none;
+    outline: 0;
+  }
+  .login-12 .aside p {
+    font-size: 15px;
+    color: #787878;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    font-family: br;
+  }
+  
+  /* This is section for responsive */
+  @media (max-width: 950px) {
+  
+    .login-12 .aside {
+      display: none;
+    }
+  }
